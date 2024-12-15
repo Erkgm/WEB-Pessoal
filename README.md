@@ -6,9 +6,9 @@ Bem-vindo à minha página pessoal! Este projeto foi criado com o objetivo de co
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5**: Estrutura da página.
-- **CSS3**: Estilização e layout.
-- **JavaScript (opcional)**: Para interatividade futura.
+- **HTML**: Estrutura da página.
+- **CSS**: Estilização e layout.
+- **JavaScript**: Para interatividade futura.
 
 ---
 
