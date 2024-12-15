@@ -1,1 +1,40 @@
+# Página Pessoal 🌐
+
+Bem-vindo à minha página pessoal! Este projeto foi criado com o objetivo de compartilhar um pouco sobre mim, minha história, hobbies, histórico acadêmico e meus projetos, além de oferecer um canal de contato para quem desejar se conectar comigo.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5**: Estrutura da página.
+- **CSS3**: Estilização e layout.
+- **JavaScript (opcional)**: Para interatividade futura.
+
+---
+
+## 📄 Funcionalidades
+
+### 🌟 Sobre Mim
+- Um espaço dedicado à minha história, hobbies e curiosidades pessoais.
+
+### 🎓 Histórico Acadêmico
+- Apresentação de minha trajetória educacional com detalhes organizados em tabelas.
+
+### 💻 Projetos
+- Uma página exclusiva onde compartilho todos os projetos que desenvolvi, com descrições e links.
+
+### 📩 Formulário de Contato
+- Permite que visitantes entrem em contato comigo preenchendo campos como:
+  - **Nome**
+  - **E-mail**
+  - **Mensagem**
+
+---
+
+## 🚀 Como Visualizar o Projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
 # WEB-Pessoal
+
