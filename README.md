@@ -35,6 +35,5 @@ Bem-vindo à minha página pessoal! Este projeto foi criado com o objetivo de co
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-# WEB-Pessoal
+   https://erkgm.github.io/WEB-Pessoal/
 
