@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site Pessoal</title>
+  <link rel="stylesheet" href="css/Pessoal.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <h1>Meu Site Pessoal</h1>
+  <nav>
+    <ul>
+      <li><button onclick="scrollToSection('sobre')"> sobre</button></li>
+      <li><button onclick="scrollToSection('habilidades')">Habilidades</button></li>
+      <li><button onclick="scrollToSection('hobbies')">Hobbies</button></li>
+      <li><button onclick="scrollToSection('informacoes-academicas')">Informações Acadêmicas</button></li>
+      <li><button onclick="scrollToSection('contato')">Contato</button></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="sobre">
+  <div id="imagem-pessoal">
+    <img src="img/FotoPessoal.jpg" alt="Minha Foto">
+  </div>
+  <h2>Sobre mim</h2>
+  <p>
+    Sou um desenvolvedor apaixonado por tecnologia e inovação. Adoro aprender novas aprendizegem e experiência e criar
+    soluções criativas para problemas complexos. Neste site, você encontrará um pouco mais sobre minha trajetória
+    e interesses.
+  </p>
+</section>
+
+<section id="habilidades">
+  <h2>Habilidades</h2>
+  <ul>
+    <li>Desenvolvedor Back-End</li>
+    <li>HTML & CSS</li>
+    <li>Raspberry</li>
+    <li>Python</li>
+    <li>Arduino</li>
+    <li>Banco de Dados</li>
+    <li>C++</li>
+  </ul>
+</section>
+
+<section id="projetos">
+  <h2>Projetos em Desenvolvimento</h2>
+  <div class="projetos-container">
+    <div class="projeto">
+      <h3>Portfólio</h3>
+      <p>
+        Estou desenvolvendo um site de portfólio pessoal para exibir minhas habilidades, projetos e experiência.
+      </p>
+      <a href="Portifolio.html" target="_blank">
+        <button>Ver Projeto</button>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<section id="hobbies">
+  <h2>Hobbies</h2>
+  <div class="hobbies-container">
+    <div class="hobby">
+      <h3><i class="fas fa-book"></i> Ler Livros</h3>
+      <p>
+        Gosto de passar meu tempo lendo livros, pois acho uma forma de válvula de escape para o cotidiano.
+        A leitura me ajuda a relaxar e a aprender coisas novas. Não me preocupo com gênero, mas os livros que mais me
+        cativaram foram livros de mitologia, como 'Mitologia Nórdica' de NEIL GAIMAN, 'O Chamado de Cthulhu' de LOVECRAFT,
+        entre outros.
+      </p>
+    </div>
+    <div class="hobby">
+      <h3><i class="fas fa-gamepad"></i> Jogar Videogame</h3>
+      <p>
+        Jogar videogame é uma das minhas formas favoritas de entretenimento. Adoro a imersão nas histórias e a
+        competitividade dos jogos online. É uma das melhores formas de relaxar e se divertir ao mesmo tempo, porém
+        é muito importante ter em mente de não ficar o dia todo nos jogos online.
+      </p>
+    </div>
+    <div class="hobby">
+      <h3><i class="fas fa-futbol"></i> Praticar Esportes</h3>
+      <p>
+        Praticar esportes, como futebol e musculação, me ajuda a manter a saúde em dia e a desestressar. Além disso,
+        é uma ótima forma de socializar com amigos. Jogo desde criança (7 ou 8 anos de idade), mas nunca fui tão
+        competitivo; gosto apenas de jogar com amigos e me divertir nas brincadeiras.
+      </p>
+    </div>
+    <div class="hobby">
+      <h3><i class="fas fa-robot"></i> Robótica</h3>
+      <p>
+        Em relação à robótica, comecei com ela na faculdade, totalmente desinformado de tudo, como o que é Arduino
+        ou sensores/módulos. Mas com o passar dos meus projetos, peguei gosto pela coisa. Acho muito interessante criar
+        e construir, além da satisfação de ver tudo funcionando.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="informacoes-academicas">
+  <h2>Informações Acadêmicas</h2>
+  <table>
+    <thead>
+    <tr>
+      <th>Ano de Início</th>
+      <th>Escola/Instituição</th>
+      <th>Tipo de Ensino</th>
+      <th>Ano de Término</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>2019</td>
+      <td>CEPMG - Professor Ivan Ferreira</td>
+      <td>Ensino Médio</td>
+      <td>2022</td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>IF Goiano - Campus Urutaí</td>
+      <td>Curso Superior em Sistemas de Informação</td>
+      <td>Cursando(2026)</td>
+    </tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="certificados">
+  <h2>Certificados</h2>
+  <div class="certificados-container">
+    <div class="certificado">
+      <h3><i class="fas fa-certificate"></i> Mini-curso de Introdução à Robótica</h3>
+      <p>
+        Certificado emitido pelo Instituto Federal Campus Urutaí, onde ministrei uma aula de introdução à robótica
+        utilizando Arduino no evento SEMINFO.
+      </p>
+    </div>
+    <div class="certificado">
+      <h3><i class="fas fa-certificate"></i> Introdução à Robótica Utilizando Arduino nas Escolas do Ensino Fundamental</h3>
+      <p>
+        Certificado emitido pelo IF Campus Urutaí, sendo um projeto de extensão para ministrar aulas e palestras em escolas
+        em cidades da região do Campus.
+      </p>
+    </div>
+    <div class="certificado">
+      <h3><i class="fas fa-certificate"></i> Todos os Certificados </h3>
+      <p>
+        Para ver mais todos os certificados e projetos, clique no botão abaixo
+      </p>
+      <button onclick="mostrarPopup()">Ver Todos</button>
+    </div>
+  </div>
+
+  <!-- Popup -->
+  <div id="popup-certificados" class="popup">
+    <div class="popup-content">
+      <span class="fechar" onclick="fecharPopup()">×</span>
+      <p>
+        Estamos desenvolvendo uma página para exibir todos os certificados. Em breve, você poderá acessar essa funcionalidade!
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p>Entre em contato comigo através das redes sociais ou preencha o formulário abaixo:</p>
+  <div class="social-icons">
+    <a href="https://github.com/seu-usuario" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.instagram.com/seu-usuario" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/seu-usuario" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.linkedin.com/in/seu-usuario" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Sua mensagem" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2024 MAIA, Erick. Todos os direitos reservados.</p>
+</footer>
+
+<script src="js/Pessoal.js"></script>
+
+</body>
+</html>

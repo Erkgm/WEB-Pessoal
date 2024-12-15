@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding-top: 60px;
+}
+
+header {
+  background-color: #282c34;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav ul li button {
+  background-color: #f9a825;
+  color: #000;
+  border: none;
+  padding: 8px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li button:hover {
+  background-color: #ffeb3b;
+}
+
+#imagem-pessoal {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#imagem-pessoal img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 3px solid #61dafb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  background-color: #f4f4f4;
+  object-fit: cover;
+  object-position: top;
+}
+
+
+section {
+  scroll-margin-top: 100px; /* Ajuste conforme necessário */
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#habilidades ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+#habilidades li {
+  background-color: #61dafb;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 1rem;
+}
+
+#projetos {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+#projetos h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.projetos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.projeto {
+  background-color: #ffffff;
+  border: 2px solid #61dafb;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.projeto h3 {
+  font-size: 1.5rem;
+  color: #f9a825;
+  margin-bottom: 10px;
+}
+
+.projeto p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.projeto button {
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.projeto button:hover {
+  background-color: #21a1f1;
+}
+
+.certificado button {
+  background-color: #61dafb; /* Cor azul */
+  color: #fff; /* Cor do texto */
+  border: none;
+  padding: 10px 20px; /* Espaçamento interno */
+  border-radius: 5px; /* Borda arredondada */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transição suave */
+  font-size: 1rem; /* Tamanho da fonte */
+}
+
+
+.certificado button:hover {
+  background-color: #21a1f1; /* Azul mais escuro no hover */
+}
+
+#hobbies {
+  scroll-margin-top: 100px;
+}
+
+.hobbies-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hobby {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #61dafb;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #000000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hobby h3 {
+  font-size: 1.5rem;
+  color: #f9a825;
+  margin-bottom: 10px;
+}
+
+.hobby p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+#informacoes-academicas {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#informacoes-academicas table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#informacoes-academicas th,
+#informacoes-academicas td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+#informacoes-academicas th {
+  background-color: #61dafb;
+  color: #fff;
+}
+
+#informacoes-academicas td {
+  background-color: #f9f9f9;
+}
+
+#informacoes-academicas tr:nth-child(even) td {
+  background-color: #e0e0e0;
+}
+
+.certificados-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.certificado {
+  background-color: #ffffff;
+  border: 2px solid #61dafb;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 4px 6px rgb(239, 164, 118);
+  color: #000000;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.certificado h3 {
+  font-size: 1.2rem;
+  color: #f9a825;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  max-width: 250px;
+}
+
+.certificado p {
+  font-size: 1rem;
+  line-height: 1.8; /* Um pouco mais de espaçamento entre linhas para melhor leitura */
+  text-align: left; /* Alinhamento à esquerda para evitar grandes espaços entre palavras */
+  margin-top: 10px;
+  max-width: 240px; /* Limitar a largura para evitar que o texto fique muito esticado */
+  padding: 0 10px; /* Adiciona um pouco de padding para centralizar o texto */
+}
+
+
+.certificado:hover {
+  transform: translateY(-5px);
+}
+
+.certificado h3 i {
+  font-size: 1.5rem;
+  color: #61dafb;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  font-size: 30px;
+  color: #282c34;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #f9a825;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #efa476;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+form button {
+  background-color: #f9a825;
+  color: #000;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #ffeb3b;
+}
+/* Popup */
+.popup {
+  display: none; /* Começa invisível */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: #fff;
+  color: #000;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  line-height: 1.8;
+}
+
+.fechar {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #000;
+}
+
+
+footer {
+  background-color: #282c34;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
