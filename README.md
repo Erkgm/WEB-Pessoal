@@ -29,11 +29,4 @@ Bem-vindo à minha página pessoal! Este projeto foi criado com o objetivo de co
   - **E-mail**
   - **Mensagem**
 
----
-
-## 🚀 Como Visualizar o Projeto
-
-1. Clone este repositório:
-   ```bash
-   https://erkgm.github.io/WEB-Pessoal/
 
