@@ -1,6 +1,7 @@
 # Página Pessoal 🌐
 
 Bem-vindo à minha página pessoal! Este projeto foi criado com o objetivo de compartilhar um pouco sobre mim, minha história, hobbies, histórico acadêmico e meus projetos, além de oferecer um canal de contato para quem desejar se conectar comigo.
+**Acesse aqui para ver meu site pessoal:** https://erkgm.github.io/WEB-Pessoal/
 
 ---
 
